@@ -1,5 +1,6 @@
 package ex1;
 import java.io.*;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class MainApp {
@@ -9,16 +10,28 @@ public class MainApp {
         flux_in = new BufferedReader(new FileReader(nume_fis));
 
         int line_nr = 0;
-        while (flux_in.readLine() != null)
+        String[] array = new String[42];
+        String linie = flux_in.readLine();
+        while (linie != null)
+        {
+            array[line_nr] = linie;
             line_nr++;
-
-        String[] array = new String[line_nr];
-
-        for (int i=0; i< line_nr; i++)
-            array[i] = flux_in.readLine();
+            linie = flux_in.readLine();
+        }
 
         for (int i=0; i< line_nr; i++)
             System.out.println(array[i]);
+
+        Arrays.sort(array);
+        System.out.println("");
+        for (int i=0; i< line_nr; i++)
+            System.out.println(array[i]);
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Judetul cautat este: ");
+        String name = scanner.nextLine();
+
+        System.out.println(name + " se afla pe pozitia " + (1 + Arrays.binarySearch(array,name)));
 
 
     }
