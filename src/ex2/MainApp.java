@@ -23,9 +23,9 @@ public class MainApp {
         PrintStream flux_out;
         flux_out = new PrintStream("src/ex2/cantec_out.txt");
 
-        int j;
+        int j=0;
         line = flux_in.readLine();
-        for (j = 0; j < line_nr; j++) {
+        while (line != null) {
             strofa[j] = new Vers(line);
             line = flux_in.readLine();
             j++;
@@ -34,7 +34,8 @@ public class MainApp {
         flux_in.close();
 
         for (j = 0; j < line_nr; j++)
-            System.out.println(strofa[j]);
+            flux_out.println(strofa[j].conVowel() + " " + strofa[j].getWordCount() + " " + strofa[j].getVowelCount()
+            + " " + strofa[j].addStar());
 
 
     }

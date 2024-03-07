@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bffdcb9-3954-4910-ba00-97878f2b2a25" name="Changes" comment="Commit 2">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ex2/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex2/MainApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ex2/Vers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex2/Vers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex2/cantec_out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex2/cantec_out.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "OVRares"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d433db9f-e4e2-475e-b749-e00a01d983e9" />
+        <option name="url" value="https://github.com/OVRares/Lab2_Java.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/ex2/cantec_in.txt" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -31,13 +50,16 @@
   "associatedIndex": 4
 }]]></component>
   <component name="ProjectId" id="2d1tF6Pb4LsRHlsg7I3E9Zrrv1C" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.MainApp.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -68,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709187306867</updated>
-      <workItem from="1709800149425" duration="3605000" />
+      <workItem from="1709800149425" duration="6580000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 2">
       <created>1709191202089</created>
@@ -77,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709191202089</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit 2">
+      <option name="closed" value="true" />
+      <created>1709804051693</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709804051693</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +125,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Commit 2" />
     <option name="LAST_COMMIT_MESSAGE" value="Commit 2" />
   </component>

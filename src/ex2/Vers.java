@@ -1,16 +1,41 @@
 package ex2;
 
+import java.util.Locale;
+
 public class Vers {
     private String v_linie;
     Vers (String l)
     {
-        v_linie = l;
+        this.v_linie = l;
     }
 
     public int getWordCount()
     {
        String[] s = v_linie.split(" ");
        return s.length;
+    }
+
+    public String returnLine()
+    {
+        return v_linie;
+    }
+
+    public String addStar()
+    {
+        if (v_linie.endsWith("en"))
+            return "*";
+        else
+            return "";
+    }
+
+    public String conVowel()
+    {
+        int rnd = (int)(Math.random() +1);
+        if (rnd < 0.1)
+            return v_linie.toUpperCase(Locale.ROOT);
+        else
+            return v_linie;
+
     }
 
     public int getVowelCount()
