@@ -3,7 +3,7 @@ package ex2;
 import java.util.Locale;
 
 public class Vers {
-    private String v_linie;
+    private final String v_linie;
     Vers (String l)
     {
         this.v_linie = l;
@@ -15,10 +15,6 @@ public class Vers {
        return s.length;
     }
 
-    public String returnLine()
-    {
-        return v_linie;
-    }
 
     public String addStar()
     {
